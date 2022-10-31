@@ -1,8 +1,4 @@
-"""Простой телеграм бот отвечающий прогнозом погоды @WeatherTelegramBot"""
 
-# Проверьте не блокируется ли API телеграмма на уровне провайдера
-# Документация https://github.com/eternnoir/pyTelegramBotAPI
-#              https://github.com/csparpa/pyowm
 
 import pyowm  # Импортируем пакет с помощью которого мы узнаем погоду
 import telebot  # Импортируем пакет бота через ввод в CMD "pip install pytelegrambotapi"
